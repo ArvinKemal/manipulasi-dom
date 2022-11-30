@@ -103,7 +103,7 @@ const tampilkan = () => {
             }
             else if (jawaban % 3 === 0) {
                 console.log("dibagi 3")
-                fizzbuz4.innerHTML = "Fizz!"
+                fizzbuzz4.innerHTML = "Fizz!"
             }
             else if (jawaban % 5 === 0) {
                 console.log("dibagi 5")
@@ -122,7 +122,9 @@ const tampilkan = () => {
         root.append(fizzbuzz4)
         console.log(root)
     }
-    if ( tahap === 5 ) {
+
+    if (tahap === 5) {
         location.reload()
     }
+
 }
