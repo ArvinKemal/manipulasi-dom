@@ -122,9 +122,7 @@ const tampilkan = () => {
         root.append(fizzbuzz4)
         console.log(root)
     }
-
-    console.log(tahap)
-
-
-
+    if ( tahap === 5 ) {
+        location.reload()
+    }
 }
